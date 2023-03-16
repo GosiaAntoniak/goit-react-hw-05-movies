@@ -22,7 +22,7 @@ const MovieDetails = () => {
 
   useEffect(() => {
     showMovieDetail(movieId);
-  }, []);
+  }, [movieId]);
 
   if (movie) {
     return (

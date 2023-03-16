@@ -14,7 +14,7 @@ const Cast = () => {
 
   useEffect(() => {
     fetchThisMovieCast(movieId);
-  }, []);
+  }, [movieId]);
 
   if (cast) {
     return (
